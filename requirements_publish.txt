@@ -1,0 +1,8 @@
+# -- HELP --
+# This is file is used by CI/CD to setup the publish environment
+# To use this file, execute the following command: pip install -r requirements_publish.txt
+
+wheel
+twine
+
+

@@ -1,0 +1,6 @@
+# -- HELP --
+# This is file is used to setup your development environment
+# To use this file, execute the following command: pip install -r requirements_develop.txt
+
+pytest
+requests >= 2.21.0
