@@ -23,6 +23,7 @@ class Client(object):
             :param password: Password value to send SMS without passing this value for each sending
             :type password: str
         """
+        self.__logger = logging.getLogger(self.__module__)
 
         self.__user = user
         self.__password = password
